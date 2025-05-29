@@ -138,7 +138,7 @@ CREATE TABLE Employees (
  SELECT *, 'Cancelled' As OrderStatus
  FROM Orders
  WHERE Status = 'Cancelled'
- 
+
  SELECT Status, COUNT(*) AS NumberOfOrders, SUM(TotalAmount) AS TotalRevenue
  FROM Orders
  GROUP BY (Status)

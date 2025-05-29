@@ -73,3 +73,6 @@ from(
 ) as t2
 order by min_year 
 offset 1 row
+
+SELECT CONVERT(ROUND(19.1232, 2) 
+
